@@ -1,0 +1,131 @@
+Modules Release 5.3.0 (2023-05-14)
+2023-10-23 16:30:42,509 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.17.1.249:38891'
+2023-10-23 16:30:51,637 - distributed.worker - INFO -       Start worker at:   tcp://172.17.1.249:37258
+2023-10-23 16:30:51,638 - distributed.worker - INFO -          Listening to:   tcp://172.17.1.249:37258
+2023-10-23 16:30:51,639 - distributed.worker - INFO -           Worker name:               PBSCluster-0
+2023-10-23 16:30:51,639 - distributed.worker - INFO -          dashboard at:         172.17.1.249:32865
+2023-10-23 16:30:51,639 - distributed.worker - INFO - Waiting to connect to:    tcp://172.17.2.10:35025
+2023-10-23 16:30:51,640 - distributed.worker - INFO - -------------------------------------------------
+2023-10-23 16:30:51,640 - distributed.worker - INFO -               Threads:                          1
+2023-10-23 16:30:51,641 - distributed.worker - INFO -                Memory:                  74.51 GiB
+2023-10-23 16:30:51,641 - distributed.worker - INFO -       Local Directory: /tmp/3082681.sched5.carboncluster/dask-scratch-space/worker-jai5uz9b
+2023-10-23 16:30:51,643 - distributed.worker - INFO - -------------------------------------------------
+2023-10-23 16:30:55,496 - distributed.worker - INFO - Starting Worker plugin shuffle
+2023-10-23 16:30:55,505 - distributed.worker - INFO -         Registered to:    tcp://172.17.2.10:35025
+2023-10-23 16:30:55,506 - distributed.worker - INFO - -------------------------------------------------
+2023-10-23 16:30:55,507 - distributed.core - INFO - Starting established connection to tcp://172.17.2.10:35025
+2023-10-23 16:32:08,143 - distributed.core - INFO - Event loop was unresponsive in Worker for 47.01s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Cd does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol Te does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/lib/python3.9/site-packages/pymatgen/io/vasp/inputs.py:1820: UnknownPotcarWarning: POTCAR data with symbol H does not match any VASP POTCAR known to pymatgen. There is a possibility your POTCAR is corrupted or that the pymatgen database is incomplete.
+  warnings.warn(

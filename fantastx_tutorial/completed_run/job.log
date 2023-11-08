@@ -1,0 +1,980 @@
+Install Diffpy-CMI for PDF simulation. Otherwise ignore..
+Install [xtk](https://github.com/MaterialEyes/xtk) to perform  XANES simulations.
+Install GSASIIscriptable or change hard-coded system path at experimental_simulation.py line 40 for powder diffraction simulations. Otherwise ignore.
+Energy code: vasp
+Error! No path (dm3_path) provided to experimental image
+Trying to refer to hard-coded reference 
+"inputs/exp_img.npy" instead.
+Score SSIM (POSCAR_init vs exp image): 0.4322227250274411
+Selection algorithm not provided.Using distance_from_pareto.
+Objective function: Distance from pareto
+Clustering: False
+Using Pool & Select classes from selection.py module
+Created comparator_obj.
+Created comparator object from params.
+Hopping mate frac is: 1.3
+Job script for dask-worker: 
+ #!/usr/bin/env bash
+
+#PBS -N dask-worker
+#PBS -A cnm81409
+#PBS -l walltime=96:00:00
+#PBS -l nodes=1:ppn=16:gen6
+
+/sandbox/vkolluru/miniconda3/envs/fx_lolbo_Aug23/bin/python -m distributed.cli.dask_worker tcp://172.17.2.10:35025 --nthreads 1 --memory-limit 74.51GiB --name dummy-name --nanny --death-timeout 60 --interface ib0
+
+Input models are finished. Making random models..
+Submitting random job
+Made new model!
+Submitting random job
+Made new model!
+Submitting random job
+Made new model!
+Submitting random job
+Made new model!
+Submitting random job
+Made new model!
+Submitting random job
+Made new model!
+Submitting random job
+Made new model!
+Submitting random job
+Made new model!
+Submitting random job
+Made new model!
+Submitting random job
+Made new model!
+Submitting random job
+Made new model!
+New Model 3 made by random added to good pool
+Submitting random job
+Made new model!
+New Model 9 made by random added to good pool
+Submitting random job
+Made new model!
+New Model 1 made by random added to good pool
+Submitting random job
+Made new model!
+Model 2 is not unique. Deleting..
+Submitting random job
+Made new model!
+New Model 4 made by random added to good pool
+Submitting random job
+Made new model!
+New Model 10 made by random added to good pool
+Submitting random job
+Made new model!
+New Model 8 made by random added to good pool
+Submitting random job
+Made new model!
+New Model 6 made by random added to good pool
+Submitting random job
+Made new model!
+Model 5 is not unique. Deleting..
+Submitting random job
+Made new model!
+Model 15 is not unique. Deleting..
+Submitting random job
+Made new model!
+New Model 7 made by random added to good pool
+Submitting random job
+Made new model!
+New Model 12 made by random added to good pool
+Submitting random job
+Made new model!
+Model 17 is not unique. Deleting..
+Submitting random job
+Made new model!
+Model 19 is not unique. Deleting..
+Submitting random job
+Made new model!
+New model 16 made by random added: probs updated based on sum of normalized obj. values!
+Submitting random job
+Made new model!
+Model 14 is not unique. Deleting..
+Submitting random job
+Made new model!
+Model 20 is not unique. Deleting..
+Submitting random job
+Made new model!
+Model 11 is not unique. Deleting..
+Submitting random job
+Made new model!
+Model 18 is not unique. Deleting..
+Submitting random job
+Made new model!
+New model 13 made by random added: probs updated based on sum of normalized obj. values!
+Submitting random job
+Made new model!
+New model 22 made by random added: probs updated based on sum of normalized obj. values!
+Submitting random job
+Made new model!
+Model 21 is not unique. Deleting..
+Submitting random job
+Made new model!
+Model 23 is not unique. Deleting..
+Submitting random job
+Made new model!
+Model 26 is not unique. Deleting..
+Submitting random job
+Made new model!
+New model 25 made by random added: probs updated based on sum of normalized obj. values!
+Submitting random job
+Made new model!
+Model 28 is not unique. Deleting..
+Submitting random job
+Made new model!
+Model 27 is not unique. Deleting..
+Submitting random job
+Made new model!
+Model 24 is not unique. Deleting..
+Submitting random job
+Made new model!
+New model 31 made by random added: probs updated based on sum of normalized obj. values!
+Submitting random job
+Made new model!
+New model 32 made by random added: probs updated based on sum of normalized obj. values!
+Submitting evolved job
+New model 41 inheritance is: [31, 25]
+Made new model!
+Model 29 is not unique. Deleting..
+Submitting evolved job
+New model 42 inheritance is: [1, 8]
+Made new model!
+Model 35 is not unique. Deleting..
+Submitting evolved job
+New model 43 inheritance is: [31, 32]
+Made new model!
+Model 30 is not unique. Deleting..
+Submitting evolved job
+New model 44 inheritance is: [31]
+Made new model!
+Model 34 is not unique. Deleting..
+Submitting evolved job
+New model 45 inheritance is: [4, 25]
+Made new model!
+Model 33 is not unique. Deleting..
+Submitting evolved job
+New model 46 inheritance is: [8]
+Adjusted the composition of model 46
+Made new model!
+Model 36 is not unique. Deleting..
+Submitting evolved job
+New model 47 inheritance is: [4]
+Made new model!
+Model 37 is not unique. Deleting..
+Submitting evolved job
+New model 48 inheritance is: [9]
+Made new model!
+Model 38 is not unique. Deleting..
+Submitting evolved job
+New model 49 inheritance is: [10]
+Adjusted the composition of model 49
+Made new model!
+Model 41 is not unique. Deleting..
+Submitting evolved job
+New model 50 inheritance is: [1, 7]
+Made new model!
+New model 42 made by fraction_slice added: probs updated based on sum of normalized obj. values!
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42].
+Submitting evolved job
+New model 51 inheritance is: [31]
+Made new model!
+New model 40 made by random added: probs updated based on sum of normalized obj. values!
+Submitting evolved job
+New model 52 inheritance is: [9]
+Adjusted the composition of model 52
+Made new model!
+Model 44 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40].
+Submitting evolved job
+New model 53 inheritance is: [12]
+Made new model!
+Model 39 is not unique. Deleting..
+Submitting evolved job
+New model 54 inheritance is: [4, 6]
+Made new model!
+Model 51 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40].
+Submitting evolved job
+New model 55 inheritance is: [31]
+Adjusted the composition of model 55
+Made new model!
+New model 45 made by fraction_slice added: probs updated based on sum of normalized obj. values!
+Submitting evolved job
+New model 56 inheritance is: [8]
+Adjusted the composition of model 56
+Made new model!
+New model 43 made by fraction_slice added: probs updated based on sum of normalized obj. values!
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43].
+Submitting evolved job
+New model 57 inheritance is: [4, 31]
+Made new model!
+Model 47 is not unique. Deleting..
+Submitting evolved job
+New model 58 inheritance is: [4, 31]
+Made new model!
+New model 52 made by perturb_comp added: probs updated based on sum of normalized obj. values!
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52].
+Submitting evolved job
+New model 59 inheritance is: [7, 52]
+Made new model!
+Model 57 is not unique. Deleting..
+Submitting evolved job
+New model 60 inheritance is: [1, 42]
+Made new model!
+Model 50 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52].
+Submitting evolved job
+New model 61 inheritance is: [8, 9]
+Made new model!
+Model 54 is not unique. Deleting..
+Submitting evolved job
+New model 62 inheritance is: [43, 7]
+Made new model!
+Model 48 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52].
+Submitting evolved job
+New model 63 inheritance is: [9]
+Made new model!
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52].
+Submitting evolved job
+New model 64 inheritance is: [42, 45]
+Made new model!
+Model 53 is not unique. Deleting..
+Submitting evolved job
+New model 65 inheritance is: [45, 4]
+Made new model!
+Model 59 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52].
+Submitting evolved job
+New model 66 inheritance is: [31]
+Adjusted the composition of model 66
+Made new model!
+New model 49 made by perturb_comp added: probs updated based on sum of normalized obj. values!
+Submitting evolved job
+New model 67 inheritance is: [32, 45]
+Made new model!
+Model 58 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49].
+Submitting evolved job
+New model 68 inheritance is: [1]
+Made new model!
+New model 46 made by perturb_comp added: probs updated based on sum of normalized obj. values!
+Submitting evolved job
+New model 69 inheritance is: [45]
+Made new model!
+New model 56 made by perturb_comp added: probs updated based on sum of normalized obj. values!
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56].
+Submitting evolved job
+New model 70 inheritance is: [6, 32]
+Made new model!
+New model 55 made by perturb_comp added: probs updated based on sum of normalized obj. values!
+Submitting evolved job
+New model 71 inheritance is: [32, 52]
+Made new model!
+Model 60 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55].
+Submitting evolved job
+New model 72 inheritance is: [8]
+Made new model!
+Model 66 is not unique. Deleting..
+Submitting evolved job
+New model 73 inheritance is: [42]
+Made new model!
+Model 69 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55].
+Submitting evolved job
+New model 74 inheritance is: [32]
+Made new model!
+Model 67 is not unique. Deleting..
+Submitting evolved job
+New model 75 inheritance is: [7]
+Made new model!
+Model 62 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55].
+Submitting evolved job
+New model 76 inheritance is: [16]
+Made new model!
+Model 68 is not unique. Deleting..
+Submitting evolved job
+New model 77 inheritance is: [4]
+Adjusted the composition of model 77
+Made new model!
+Model 63 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55].
+Submitting evolved job
+New model 78 inheritance is: [43, 7]
+Made new model!
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55].
+Submitting evolved job
+New model 79 inheritance is: [25]
+Made new model!
+Model 71 is not unique. Deleting..
+Submitting evolved job
+New model 80 inheritance is: [40, 42]
+Made new model!
+Model 64 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55].
+Submitting evolved job
+New model 81 inheritance is: [43, 52]
+Made new model!
+Model 75 is not unique. Deleting..
+Submitting evolved job
+New model 82 inheritance is: [3, 49]
+Made new model!
+New model 72 made by perturb_sites added: probs updated based on sum of normalized obj. values!
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72].
+Submitting evolved job
+New model 83 inheritance is: [4, 42]
+Made new model!
+New model 65 made by fraction_slice added: probs updated based on sum of normalized obj. values!
+Submitting evolved job
+New model 84 inheritance is: [25]
+Adjusted the composition of model 84
+Made new model!
+New model 70 made by fraction_slice added: probs updated based on sum of normalized obj. values!
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70].
+Submitting evolved job
+New model 85 inheritance is: [42, 45]
+Made new model!
+Model 74 is not unique. Deleting..
+Submitting evolved job
+New model 86 inheritance is: [4]
+Adjusted the composition of model 86
+Made new model!
+Model 79 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70].
+Submitting evolved job
+New model 87 inheritance is: [13]
+Made new model!
+Model 76 is not unique. Deleting..
+Submitting evolved job
+New model 88 inheritance is: [6]
+Made new model!
+Model 84 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70].
+Submitting evolved job
+New model 89 inheritance is: [8]
+Made new model!
+New model 73 made by perturb_sites added: probs updated based on sum of normalized obj. values!
+Submitting evolved job
+New model 90 inheritance is: [52, 40]
+Made new model!
+New model 83 made by fraction_slice added: probs updated based on sum of normalized obj. values!
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83].
+Submitting evolved job
+New model 91 inheritance is: [1]
+Adjusted the composition of model 91
+Made new model!
+Model 80 is not unique. Deleting..
+Submitting evolved job
+New model 92 inheritance is: [31]
+Made new model!
+Model 78 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83].
+Submitting evolved job
+New model 93 inheritance is: [9, 32]
+Made new model!
+New model 82 made by fraction_slice added: probs updated based on sum of normalized obj. values!
+Submitting evolved job
+New model 94 inheritance is: [4, 31]
+Made new model!
+Model 81 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82].
+Submitting evolved job
+New model 95 inheritance is: [10]
+Adjusted the composition of model 95
+Made new model!
+Model 92 is not unique. Deleting..
+Submitting evolved job
+New model 96 inheritance is: [8]
+Adjusted the composition of model 96
+Made new model!
+New Model 90 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 90].
+Submitting evolved job
+New model 97 inheritance is: [10, 31]
+Made new model!
+New Model 89 made by perturb_sites added to good pool
+Submitting evolved job
+New model 98 inheritance is: [9]
+Made new model!
+Model 85 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 89].
+Submitting evolved job
+New model 99 inheritance is: [40]
+Made new model!
+Model 87 is not unique. Deleting..
+Submitting evolved job
+New model 100 inheritance is: [8]
+Adjusted the composition of model 100
+Made new model!
+Model 94 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 89].
+Submitting evolved job
+New model 101 inheritance is: [42, 9]
+Made new model!
+Model 88 is not unique. Deleting..
+Submitting evolved job
+New model 102 inheritance is: [7]
+Made new model!
+New Model 91 made by perturb_comp added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 91].
+Submitting evolved job
+New model 103 inheritance is: [45, 22]
+Made new model!
+Model 95 is not unique. Deleting..
+Submitting evolved job
+New model 104 inheritance is: [46]
+Adjusted the composition of model 104
+Made new model!
+Model 98 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 91].
+Submitting evolved job
+New model 105 inheritance is: [22, 52]
+Made new model!
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 91].
+Submitting evolved job
+New model 106 inheritance is: [9, 8]
+Made new model!
+Model 93 is not unique. Deleting..
+Submitting evolved job
+New model 107 inheritance is: [70, 72]
+Made new model!
+Model 102 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 91].
+Submitting evolved job
+New model 108 inheritance is: [13, 83]
+Made new model!
+Model 97 is not unique. Deleting..
+Submitting evolved job
+New model 109 inheritance is: [40, 1]
+Made new model!
+Model 100 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 91].
+Submitting evolved job
+New model 110 inheritance is: [7]
+Made new model!
+Model 101 is not unique. Deleting..
+Submitting evolved job
+New model 111 inheritance is: [13]
+Made new model!
+Model 103 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 91].
+Submitting evolved job
+New model 112 inheritance is: [55, 3]
+Made new model!
+Model 96 is not unique. Deleting..
+Submitting evolved job
+New model 113 inheritance is: [83]
+Made new model!
+Model 106 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 91].
+Submitting evolved job
+New model 114 inheritance is: [10]
+Made new model!
+New Model 105 made by fraction_slice added to good pool
+Submitting evolved job
+New model 115 inheritance is: [72, 1]
+Made new model!
+Model 110 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 105].
+Submitting evolved job
+New model 116 inheritance is: [32, 82]
+Made new model!
+Model 107 is not unique. Deleting..
+Submitting evolved job
+New model 117 inheritance is: [72]
+Made new model!
+Model 99 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 105].
+Submitting evolved job
+New model 118 inheritance is: [70]
+Adjusted the composition of model 118
+Made new model!
+Model 113 is not unique. Deleting..
+Submitting evolved job
+New model 119 inheritance is: [22, 6]
+Made new model!
+New Model 86 made by perturb_comp added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 86].
+Submitting evolved job
+New model 120 inheritance is: [43, 1]
+Made new model!
+Model 111 is not unique. Deleting..
+Submitting evolved job
+New model 121 inheritance is: [70]
+Adjusted the composition of model 121
+Made new model!
+Model 117 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 86].
+Submitting evolved job
+New model 122 inheritance is: [72]
+Adjusted the composition of model 122
+Made new model!
+Model 115 is not unique. Deleting..
+Submitting evolved job
+New model 123 inheritance is: [40, 7]
+Made new model!
+New Model 108 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 108].
+Submitting evolved job
+New model 124 inheritance is: [32, 52]
+Made new model!
+New Model 109 made by fraction_slice added to good pool
+Submitting evolved job
+New model 125 inheritance is: [1]
+Made new model!
+New Model 114 made by perturb_sites added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 114].
+Submitting evolved job
+New model 126 inheritance is: [7, 45]
+Made new model!
+Model 116 is not unique. Deleting..
+Submitting evolved job
+New model 127 inheritance is: [9]
+Adjusted the composition of model 127
+Made new model!
+Model 126 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 114].
+Submitting evolved job
+New model 128 inheritance is: [73]
+Adjusted the composition of model 128
+Made new model!
+New Model 118 made by perturb_comp added to good pool
+Submitting evolved job
+New model 129 inheritance is: [25, 16]
+Made new model!
+Submitting evolved job
+New model 130 inheritance is: [16, 42]
+Made new model!
+Model 123 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 118].
+Submitting evolved job
+New model 131 inheritance is: [43, 16]
+Made new model!
+Model 119 is not unique. Deleting..
+Submitting evolved job
+New model 132 inheritance is: [13, 1]
+Made new model!
+New Model 122 made by perturb_comp added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 122].
+Submitting evolved job
+New model 133 inheritance is: [6, 1]
+Made new model!
+Model 120 is not unique. Deleting..
+Submitting evolved job
+New model 134 inheritance is: [83]
+Adjusted the composition of model 134
+Made new model!
+New Model 112 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 112].
+Submitting evolved job
+New model 135 inheritance is: [3]
+Made new model!
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 112].
+Submitting evolved job
+New model 136 inheritance is: [55, 49]
+Made new model!
+Model 128 is not unique. Deleting..
+Submitting evolved job
+New model 137 inheritance is: [82, 9]
+Made new model!
+Model 132 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 112].
+Submitting evolved job
+New model 138 inheritance is: [70, 6]
+Made new model!
+New Model 124 made by fraction_slice added to good pool
+Submitting evolved job
+New model 139 inheritance is: [9, 82]
+Made new model!
+Model 121 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 124].
+Submitting evolved job
+New model 140 inheritance is: [73, 43]
+Made new model!
+New Model 129 made by fraction_slice added to good pool
+Submitting evolved job
+New model 141 inheritance is: [16, 3]
+Made new model!
+Model 125 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 129].
+Submitting evolved job
+New model 142 inheritance is: [25]
+Adjusted the composition of model 142
+Made new model!
+New Model 131 made by fraction_slice added to good pool
+Submitting evolved job
+New model 143 inheritance is: [73]
+Adjusted the composition of model 143
+Made new model!
+Submitting evolved job
+New model 144 inheritance is: [6, 43]
+Made new model!
+New Model 130 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 130].
+Submitting evolved job
+New model 145 inheritance is: [72]
+Made new model!
+Model 135 is not unique. Deleting..
+Submitting evolved job
+New model 146 inheritance is: [32]
+Made new model!
+Model 138 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 130].
+Submitting evolved job
+New model 147 inheritance is: [13, 82]
+Made new model!
+New Model 137 made by fraction_slice added to good pool
+Submitting evolved job
+New model 148 inheritance is: [7]
+Made new model!
+Model 140 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 137].
+Submitting evolved job
+New model 149 inheritance is: [52, 73]
+Made new model!
+Current good_pool population models: [3, 9, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 137].
+Submitting evolved job
+New model 150 inheritance is: [45, 12]
+Made new model!
+Model 139 is not unique. Deleting..
+Submitting evolved job
+New model 151 inheritance is: [40, 52]
+Made new model!
+Model 141 is not unique. Deleting..
+Current good_pool population models: [3, 9, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 137].
+Submitting evolved job
+New model 152 inheritance is: [13, 8]
+Made new model!
+Model 143 is not unique. Deleting..
+Submitting evolved job
+New model 153 inheritance is: [52, 40]
+Made new model!
+Model 145 is not unique. Deleting..
+Current good_pool population models: [3, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 137].
+Submitting evolved job
+New model 154 inheritance is: [70, 43]
+Made new model!
+Model 148 is not unique. Deleting..
+Submitting evolved job
+New model 155 inheritance is: [43]
+Adjusted the composition of model 155
+Made new model!
+Model 133 is not unique. Deleting..
+Current good_pool population models: [3, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 137].
+Submitting evolved job
+New model 156 inheritance is: [32, 6]
+Made new model!
+New Model 146 made by perturb_sites added to good pool
+Submitting evolved job
+New model 157 inheritance is: [10]
+Made new model!
+New Model 144 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 144].
+Submitting evolved job
+New model 158 inheritance is: [42, 40]
+Made new model!
+Model 154 is not unique. Deleting..
+Submitting evolved job
+New model 159 inheritance is: [72]
+Adjusted the composition of model 159
+Made new model!
+New Model 149 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 149].
+Submitting evolved job
+New model 160 inheritance is: [82]
+Made new model!
+Model 152 is not unique. Deleting..
+Submitting evolved job
+New model 161 inheritance is: [25]
+Adjusted the composition of model 161
+Made new model!
+New Model 150 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 150].
+Submitting evolved job
+New model 162 inheritance is: [82, 65]
+Made new model!
+Model 155 is not unique. Deleting..
+Submitting evolved job
+New model 163 inheritance is: [42, 32]
+Made new model!
+New Model 159 made by perturb_comp added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 159].
+Submitting evolved job
+New model 164 inheritance is: [13, 65]
+Made new model!
+New Model 136 made by fraction_slice added to good pool
+Submitting evolved job
+New model 165 inheritance is: [12, 45]
+Made new model!
+New Model 151 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 151].
+Submitting evolved job
+New model 166 inheritance is: [6, 82]
+Made new model!
+New Model 153 made by fraction_slice added to good pool
+Submitting evolved job
+New model 167 inheritance is: [72, 42]
+Made new model!
+Model 158 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 153].
+Submitting evolved job
+New model 168 inheritance is: [6]
+Adjusted the composition of model 168
+Made new model!
+Model 156 is not unique. Deleting..
+Submitting evolved job
+New model 169 inheritance is: [43, 72]
+Made new model!
+New Model 157 made by perturb_sites added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 157].
+Submitting evolved job
+New model 170 inheritance is: [83, 40]
+Made new model!
+Model 164 is not unique. Deleting..
+Submitting evolved job
+New model 171 inheritance is: [8]
+Made new model!
+Model 160 is not unique. Deleting..
+Current good_pool population models: [3, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 157].
+Submitting evolved job
+New model 172 inheritance is: [72]
+Made new model!
+Model 165 is not unique. Deleting..
+Submitting evolved job
+New model 173 inheritance is: [12]
+Adjusted the composition of model 173
+Made new model!
+Model 170 is not unique. Deleting..
+Current good_pool population models: [3, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 157].
+Submitting evolved job
+New model 174 inheritance is: [72, 22]
+Made new model!
+Model 166 is not unique. Deleting..
+Submitting evolved job
+New model 175 inheritance is: [22, 6]
+Made new model!
+New Model 161 made by perturb_comp added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 161].
+Submitting evolved job
+New model 176 inheritance is: [13, 72]
+Made new model!
+Model 167 is not unique. Deleting..
+Submitting evolved job
+New model 177 inheritance is: [12]
+Made new model!
+Model 162 is not unique. Deleting..
+Current good_pool population models: [3, 1, 4, 10, 8, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 161].
+Submitting evolved job
+New model 178 inheritance is: [10, 83]
+Made new model!
+Model 172 is not unique. Deleting..
+Submitting evolved job
+New model 179 inheritance is: [40, 49]
+Made new model!
+Model 169 is not unique. Deleting..
+Current good_pool population models: [3, 1, 4, 10, 8, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 161].
+Submitting evolved job
+New model 180 inheritance is: [73]
+Adjusted the composition of model 180
+Made new model!
+Model 173 is not unique. Deleting..
+Submitting evolved job
+New model 181 inheritance is: [45, 4]
+Made new model!
+New Model 163 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 163].
+Submitting evolved job
+New model 182 inheritance is: [55, 10]
+Made new model!
+Model 171 is not unique. Deleting..
+Submitting evolved job
+New model 183 inheritance is: [70, 12]
+Made new model!
+New Model 174 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 174].
+Submitting evolved job
+New model 184 inheritance is: [83]
+Made new model!
+Model 175 is not unique. Deleting..
+Submitting evolved job
+New model 185 inheritance is: [10]
+Adjusted the composition of model 185
+Made new model!
+Model 176 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 174].
+Submitting evolved job
+New model 186 inheritance is: [65, 40]
+Made new model!
+Model 179 is not unique. Deleting..
+Submitting evolved job
+New model 187 inheritance is: [55]
+Adjusted the composition of model 187
+Made new model!
+New Model 168 made by perturb_comp added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 168].
+Submitting evolved job
+New model 188 inheritance is: [65, 45]
+Made new model!
+Model 177 is not unique. Deleting..
+Submitting evolved job
+New model 189 inheritance is: [16, 82]
+Made new model!
+Model 184 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 168].
+Submitting evolved job
+New model 190 inheritance is: [83]
+Adjusted the composition of model 190
+Made new model!
+Model 188 is not unique. Deleting..
+Submitting evolved job
+New model 191 inheritance is: [7]
+Adjusted the composition of model 191
+Made new model!
+Model 186 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 168].
+Submitting evolved job
+New model 192 inheritance is: [83]
+Adjusted the composition of model 192
+Made new model!
+Model 185 is not unique. Deleting..
+Submitting evolved job
+New model 193 inheritance is: [70]
+Adjusted the composition of model 193
+Made new model!
+New Model 178 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 178].
+Submitting evolved job
+New model 194 inheritance is: [10]
+Made new model!
+New Model 182 made by fraction_slice added to good pool
+Submitting evolved job
+New model 195 inheritance is: [73, 13]
+Made new model!
+Submitting evolved job
+New model 196 inheritance is: [43, 83]
+Made new model!
+Model 183 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 12, 16, 13, 22, 25, 31, 32, 42, 45, 43, 52, 49, 46, 56, 55, 65, 70, 73, 83, 82, 182].
+Submitting evolved job
+New model 197 inheritance is: [83, 49]
+Made new model!
+Model 193 is not unique. Deleting..
+Submitting evolved job
+New model 198 inheritance is: [52]
+Adjusted the composition of model 198
+Made new model!
+Model 191 is not unique. Deleting..
+Current good_pool population models: [3, 1, 4, 10, 8, 6, 12, 16, 13, 22, 25, 31, 32, 45, 52, 49, 46, 56, 55, 65, 70, 73, 83, 82, 182].
+Submitting evolved job
+New model 199 inheritance is: [70, 13]
+Made new model!
+Model 180 is not unique. Deleting..
+Submitting evolved job
+New model 200 inheritance is: [22, 83]
+Made new model!
+Model 189 is not unique. Deleting..
+Current good_pool population models: [3, 1, 10, 12, 16, 13, 22, 25, 31, 32, 45, 52, 49, 46, 56, 55, 65, 70, 73, 83, 82, 182].
+Submitting evolved job
+New model 201 inheritance is: [22]
+Adjusted the composition of model 201
+Made new model!
+Model 187 is not unique. Deleting..
+Submitting evolved job
+New model 202 inheritance is: [16]
+Made new model!
+Model 181 is not unique. Deleting..
+Current good_pool population models: [3, 1, 10, 12, 16, 13, 22, 25, 31, 32, 45, 52, 49, 46, 56, 55, 65, 70, 73, 83, 82, 182].
+Submitting evolved job
+New model 203 inheritance is: [22]
+Adjusted the composition of model 203
+Made new model!
+Model 196 is not unique. Deleting..
+Submitting evolved job
+New model 204 inheritance is: [25]
+Adjusted the composition of model 204
+Made new model!
+New Model 199 made by fraction_slice added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 199].
+Submitting evolved job
+New model 205 inheritance is: [52, 25]
+Made new model!
+Model 194 is not unique. Deleting..
+Submitting evolved job
+New model 206 inheritance is: [25]
+Made new model!
+Model 200 is not unique. Deleting..
+Current good_pool population models: [3, 10, 8, 6, 12, 16, 13, 22, 25, 42, 52, 49, 46, 56, 55, 65, 70, 73, 82, 199].
+Submitting evolved job
+New model 207 inheritance is: [49, 13]
+Made new model!
+New Model 202 made by perturb_sites added to good pool
+Submitting evolved job
+New model 208 inheritance is: [55, 65]
+Made new model!
+Model 195 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 10, 7, 12, 16, 13, 22, 25, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 202].
+Submitting evolved job
+New model 209 inheritance is: [55, 73]
+Made new model!
+New Model 197 made by fraction_slice added to good pool
+Submitting evolved job
+New model 210 inheritance is: [65, 25]
+Made new model!
+New Model 190 made by perturb_comp added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 190].
+Submitting evolved job
+New model 211 inheritance is: [10]
+Made new model!
+Model 203 is not unique. Deleting..
+Submitting evolved job
+New model 212 inheritance is: [22]
+Made new model!
+Model 208 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 6, 12, 16, 13, 22, 25, 32, 42, 45, 43, 49, 46, 56, 55, 65, 70, 73, 83, 82, 190].
+Submitting evolved job
+New model 213 inheritance is: [12]
+Adjusted the composition of model 213
+Made new model!
+Model 209 is not unique. Deleting..
+Submitting evolved job
+New model 214 inheritance is: [16]
+Made new model!
+Model 207 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 6, 12, 16, 13, 22, 32, 42, 45, 43, 49, 46, 56, 55, 65, 70, 73, 82, 190].
+Submitting evolved job
+New model 215 inheritance is: [55, 3]
+Made new model!
+New Model 201 made by perturb_comp added to good pool
+Submitting evolved job
+New model 216 inheritance is: [82]
+Made new model!
+New Model 204 made by perturb_comp added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 204].
+Submitting evolved job
+New model 217 inheritance is: [12]
+Adjusted the composition of model 217
+Made new model!
+New Model 205 made by fraction_slice added to good pool
+Submitting evolved job
+New model 218 inheritance is: [22]
+Made new model!
+New Model 212 made by perturb_sites added to good pool
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 212].
+New Model 198 made by perturb_comp added to good pool
+Model 206 is not unique. Deleting..
+Model 210 is not unique. Deleting..
+Model 213 is not unique. Deleting..
+Model 211 is not unique. Deleting..
+Model 218 is not unique. Deleting..
+Model 214 is not unique. Deleting..
+New Model 216 made by perturb_sites added to good pool
+New Model 217 made by perturb_comp added to good pool
+Model 215 is not unique. Deleting..
+Current good_pool population models: [3, 9, 1, 4, 10, 8, 6, 7, 12, 16, 13, 22, 25, 31, 32, 42, 40, 45, 43, 52, 49, 46, 56, 55, 72, 65, 70, 73, 83, 82, 217].
+Current operator probabilities: [0.25, 0.25, 0.5]
+Done!
+Total time:  182205.3942155838

@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=4:gen6
+#PBS -l walltime=96:00:00
+#PBS -N CdTe-tel
+#PBS -A cnm81409
+#PBS -e job.err
+#PBS -j eo
+#PBS -m a
+
+cd $PBS_O_WORKDIR
+
+# bash -i conda_env.sh
+source /sandbox/vkolluru/miniconda3/etc/profile.d/conda.sh
+conda activate fx_lolbo_Aug23
+
+PYTHONUNBUFFERED=1 run_fx.py > job.log
+
